@@ -1,0 +1,20 @@
+.Scrollbtn {
+  position: absolute;
+  top: 18.5rem;
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  margin-top: 54.94vh;
+  cursor: pointer;
+}
+
+.Scrollbtn > i {
+  font-size: 3.015rem;
+  color: white;
+  transition: all ease-out 0.2s;
+}
+.Scrollbtn > i:hover {
+  color: rgb(71, 207, 43);
+}

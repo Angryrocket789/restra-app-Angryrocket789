@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.menuRender {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* foodDescriptionTextbox */
+.foodDescriptionTextbox {
+  background: rgb(168, 226, 163);
+  width: 469px;
+  height: 180.9px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 3rem;
+}
+
+.foodDescriptionTextbox > h1 {
+  font-size: 1.34rem;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.foodDescriptionTextbox > :nth-child(2) {
+  font-size: 0.84rem;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+  margin: 0rem 1rem;
+}
+.foodDescriptionTextbox > :nth-child(3) {
+  font-size: 0.84rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem 1rem;
+}
+/* ---------------------------- */
+
+/* Dishes Container */
+.dishesContainer {
+  width: 804px;
+  min-height: 210px;
+  background: rgb(255, 255, 255);
+  border: 3px solid darkgreen;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}

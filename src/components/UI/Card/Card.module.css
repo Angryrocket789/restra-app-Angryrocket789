@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+.item {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1rem 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.item > :nth-child(1) > h1 {
+  font-size: 1.34rem;
+}
+ul > hr {
+  width: 95%;
+  transform: translateX(18px);
+  border-top: 1px solid rgb(14, 85, 0);
+  margin-bottom: 1rem;
+}
+
+.dishdescription {
+  font-size: 0.804rem;
+  font-style: italic;
+  margin: 0.5rem 0rem;
+}
+.dishprice {
+  font-size: 1.005rem;
+  color: rgb(133, 255, 108);
+  font-weight: bold;
+}
+
+.item > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.139rem;
+  /* margin-top: 1rem; */
+}
+
+.amount {
+  font-weight: bold;
+}
+.amount > input {
+  height: 1.34rem;
+  width: 1.742rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  font-size: 0.871rem;
+  font-weight: bold;
+  text-align: center;
+}
+.addbtn {
+  border: 1px solid rgb(133, 255, 108);
+  border-radius: 75px 75px;
+  background: rgb(133, 255, 108);
+  font-size: 0.871rem;
+  letter-spacing: 0.1rem;
+  font-weight: bolder;
+  padding: 0.469rem 1.541rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  transition: all linear 0.1s;
+}
+.addbtn:hover {
+  cursor: pointer;
+  background: rgba(14, 85, 0, 0.363);
+}

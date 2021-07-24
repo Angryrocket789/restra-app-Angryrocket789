@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap");
+.parent-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameRendering {
+  margin-bottom: 36.3vh;
+}
+.restraName {
+  margin-top: 10.05rem;
+  font-family: "Fuggles", cursive;
+  font-size: 8.71rem;
+  text-align: center;
+}
+.smallHeading {
+  text-align: center;
+  font-size: 3.35rem;
+  font-family: "Fuggles", cursive;
+}

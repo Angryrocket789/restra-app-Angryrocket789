@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cart-button {
+  border: 1px solid rgb(255, 255, 108);
+  border-radius: 7px;
+  background: rgb(255, 255, 108);
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  padding: 0.6rem 2rem;
+  margin-left: 4rem;
+  transition: all linear 0.1s;
+  position: relative;
+}
+
+.cart-button > span {
+  margin-left: 0.8rem;
+}
+
+.cart-button > i {
+  font-size: 1.4rem;
+}
+
+.cart-button:hover {
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(71, 207, 43);
+}
+.smallCircle {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.2rem;
+  min-width: 23.45px;
+  min-height: 23.45px;
+  background: tomato;
+  border-radius: 100%;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
